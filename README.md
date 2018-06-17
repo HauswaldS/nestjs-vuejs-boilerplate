@@ -1,8 +1,5 @@
 # nestjs-vuejs-boilerplate
 
-## Description
-
-description
 
 ## Installation
 
