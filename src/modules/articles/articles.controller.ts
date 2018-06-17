@@ -17,8 +17,8 @@ export class ArticlesController {
         return this.articleService.create(articleToCreate);
     }
 
-    @Delete()
+    @Delete(':id')
     delete(@Param('id') articleId) {
-        return this.articleService.create(articleId);
+        return this.articleService.delete(articleId);
     }
 }
